@@ -84,12 +84,12 @@ self.__precacheManifest = [
     "url": "/project3-tiago/fonts/nucleo-icons.c1733565.eot"
   },
   {
-    "revision": "2569aaea6eaaf8cd210db7f2fa016743",
-    "url": "/project3-tiago/fonts/nucleo-icons.2569aaea.woff"
-  },
-  {
     "revision": "f82ec6ba2dc4181db2af35c499462840",
     "url": "/project3-tiago/fonts/nucleo-icons.f82ec6ba.ttf"
+  },
+  {
+    "revision": "2569aaea6eaaf8cd210db7f2fa016743",
+    "url": "/project3-tiago/fonts/nucleo-icons.2569aaea.woff"
   },
   {
     "revision": "46abbc4a676739dbd61f8a305cb63fd8",
@@ -100,24 +100,36 @@ self.__precacheManifest = [
     "url": "/project3-tiago/index.html"
   },
   {
+    "revision": "c7438ee6c54696ba6ad1b8ae76049efb",
+    "url": "/project3-tiago/img/pages/call.png"
+  },
+  {
     "revision": "4747d1e3099d8dfe40f38227bc34cd8d",
     "url": "/project3-tiago/img/pages/batch.png"
   },
   {
-    "revision": "c7438ee6c54696ba6ad1b8ae76049efb",
-    "url": "/project3-tiago/img/pages/call.png"
+    "revision": "980459c2e4c8bf9acada375c846a9a05",
+    "url": "/project3-tiago/img/pages/company.png"
+  },
+  {
+    "revision": "969a63647cc52f21fffe7bd90ddf78e5",
+    "url": "/project3-tiago/img/pages/default_logo.png"
   },
   {
     "revision": "3589adb2bee2677bc38553c44763f986",
     "url": "/project3-tiago/img/pages/default_banner_course.jpg"
   },
   {
+    "revision": "c567d68dcf244440db1c22a50a4937ad",
+    "url": "/project3-tiago/img/pages/default_profile_picture.png"
+  },
+  {
     "revision": "a5f767507fa8fd4291b2d522ea71e1bf",
     "url": "/project3-tiago/img/pages/default_user.png"
   },
   {
-    "revision": "969a63647cc52f21fffe7bd90ddf78e5",
-    "url": "/project3-tiago/img/pages/default_logo.png"
+    "revision": "8681e51198ce3d93f21e96cdcdb6df17",
+    "url": "/project3-tiago/img/pages/fund.png"
   },
   {
     "revision": "47cafbd72c8c2b34e2077b451f53c17e",
@@ -128,14 +140,6 @@ self.__precacheManifest = [
     "url": "/project3-tiago/img/pages/evaluation.png"
   },
   {
-    "revision": "c567d68dcf244440db1c22a50a4937ad",
-    "url": "/project3-tiago/img/pages/default_profile_picture.png"
-  },
-  {
-    "revision": "8681e51198ce3d93f21e96cdcdb6df17",
-    "url": "/project3-tiago/img/pages/fund.png"
-  },
-  {
     "revision": "d5c629d60a6589e4e27c0d382d687b54",
     "url": "/project3-tiago/img/pages/meet.png"
   },
@@ -144,31 +148,27 @@ self.__precacheManifest = [
     "url": "/project3-tiago/img/pages/news.png"
   },
   {
-    "revision": "980459c2e4c8bf9acada375c846a9a05",
-    "url": "/project3-tiago/img/pages/company.png"
+    "revision": "f8104539a1ccf4d22f118cb164476550",
+    "url": "/project3-tiago/img/pages/plane.png"
   },
   {
     "revision": "58a4b63f1fe64e253bf85b859767c5e8",
     "url": "/project3-tiago/img/pages/nps.svg"
   },
   {
-    "revision": "605c805726b35c44cab764451e3d0661",
-    "url": "/project3-tiago/img/pages/rocket.png"
-  },
-  {
-    "revision": "f8104539a1ccf4d22f118cb164476550",
-    "url": "/project3-tiago/img/pages/plane.png"
-  },
-  {
     "revision": "32c125f47a3654d318a2955467f17f07",
     "url": "/project3-tiago/img/pages/thermometer.png"
   },
   {
-    "revision": "6a0c48a6af0babe5f5078cfb37be2dcf",
-    "url": "/project3-tiago/img/pages/survey.png"
+    "revision": "605c805726b35c44cab764451e3d0661",
+    "url": "/project3-tiago/img/pages/rocket.png"
   },
   {
     "revision": "735ab4f94fbcd57074377afca324c813",
     "url": "/project3-tiago/robots.txt"
+  },
+  {
+    "revision": "6a0c48a6af0babe5f5078cfb37be2dcf",
+    "url": "/project3-tiago/img/pages/survey.png"
   }
 ];
