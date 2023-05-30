@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/project3-tiago/precache-manifest.8a7402f553edeae7cad2eb3635faaae7.js"
+  "/project3-tiago/precache-manifest.2b412ff08e732213e96501ae8f8cd55c.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "pdi"});
