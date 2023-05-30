@@ -1,55 +1,69 @@
-# Gerenciador de assinaturas mensais
+# Aplicativo de gerenciamento de inscrições mensais: Backend
 
-# Prints:
+## Requirements
 
-## Criação de nova inscrição:
-![print1](https://user-images.githubusercontent.com/49379007/183553310-21863496-4e59-40c7-bbbe-5cb3cac502a4.png)
+- Python 3.9+
+- Python3 pip ( sudo apt install -y python3-pip )
+- MySQL Dev: ( apt-get install -y libmysqlclient-dev )
 
-## Listagem de inscrições:
-![print2](https://user-images.githubusercontent.com/49379007/183553375-8a1309c3-779f-4393-8a58-26d0a8783360.png)
+## 1. Setup
 
-## Edição de inscrição:
-![print3](https://user-images.githubusercontent.com/49379007/183553407-c3a56aa1-96e4-40d3-88c7-25c95689609b.png)
+### 1.1 Creating Flask virtualenv
 
+(only needed first time)
 
-#### Descrição
+```sh
+  $ python3 -m venv venv
+```
 
-A aplicação tem como objetivo registrar inscrições mensais juntamente com seus valores, para exibir ao usuário o quanto está sendo gasto por mês. Desta forma, o usuário pode julgar se alguma inscrição está sendo desnecessária ou não.
+### 1.2 Activating Flask virtualenv
 
-#### Deploy
+```sh
+  $ source venv/bin/activate
+```
 
-Preencha aqui a URL para acesso ao site publicado
+From now on, you shall see **(venv)** written on the left side of command prompt, indicating that you're inside of the virtualenv
 
+### 1.3 Installing requirements inside Flask virtualenv
 
-#### Desenvolvedor(es)
-Tiago Ribeiro Chagas
+(only needed first time)
 
+```sh
+  $ pip install -r requirements.txt
+```
 
-#### Tecnologias
+### 1.4 Configure needed environment variables inside .env file
 
-Front:
-Vue, Javascript, HTML, CSS, Bootstrap, Yarn (gerenciador de pacotes)
+(only needed first time. Examples available in **.env.production-example** and **.env.development-example**)
 
-Back:
-Flask, MySQLAlchemy, Node, Python
+```sh
+  $ cp .env.X-example .env
+```
 
-Persistência de dados:
-MySQL
+## 2. Migrate database && seed
 
-#### Ambiente de desenvolvimento
+```sh
+  $ flask db stamp head
+```
 
-Visual Studio Code
-Git Bash
-MySQL Workbench
+(The command above sets the pointer to the first migration. Only needed first time)
 
-#### Créditos
+```sh
+  $ flask db migrate
+  $ flask db upgrade
+  $ flask seed run
+```
 
-Template: Argon Dashboard
-https://www.creative-tim.com/product/argon-dashboard
+## 3. Run
 
-#### Bastidores
+(needs to be executed inside Flask virtualenv. See 1.2)
 
-O maior desafio do projeto foi fazer deploy do mesmo, pois eu não tinha experiência prévia em realizar deploy de ambos frontend em Vue e backend em Flask
+```sh
+  $ python3 app.py
+```
 
----
-Projeto entregue para a disciplina de [Desenvolvimento de Software para a Web](http://github.com/andreainfufsm/elc1090-2023a) em 2023a
+On another terminal, set up scheduled jobs:
+
+```
+  $ flask crontab add
+```
