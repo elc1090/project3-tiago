@@ -1,11 +1,20 @@
 # Gerenciador de assinaturas mensais
 
-![Screenshot do projeto](https://mdswanson.com/static/chops-ux-step-4.png "Screenshot do projeto").
+# Prints:
+
+## Criação de nova inscrição:
+![print1](https://user-images.githubusercontent.com/49379007/183553310-21863496-4e59-40c7-bbbe-5cb3cac502a4.png)
+
+## Listagem de inscrições:
+![print2](https://user-images.githubusercontent.com/49379007/183553375-8a1309c3-779f-4393-8a58-26d0a8783360.png)
+
+## Edição de inscrição:
+![print3](https://user-images.githubusercontent.com/49379007/183553407-c3a56aa1-96e4-40d3-88c7-25c95689609b.png)
 
 
 #### Descrição
 
-Preencha aqui uma descrição sucinta do projeto (tema e funcionalidades)
+A aplicação tem como objetivo registrar inscrições mensais juntamente com seus valores, para exibir ao usuário o quanto está sendo gasto por mês. Desta forma, o usuário pode julgar se alguma inscrição está sendo desnecessária ou não.
 
 #### Deploy
 
@@ -13,30 +22,34 @@ Preencha aqui a URL para acesso ao site publicado
 
 
 #### Desenvolvedor(es)
-Preencha nomes aqui
+Tiago Ribeiro Chagas
 
 
 #### Tecnologias
 
-Preencha aqui uma lista detalhada de tecnologias usadas para frontend, backend e persistência de dados
+Front:
+Vue, Javascript, HTML, CSS, Bootstrap, Yarn (gerenciador de pacotes)
+
+Back:
+Flask, MySQLAlchemy, Node, Python
+
+Persistência de dados:
+MySQL
 
 #### Ambiente de desenvolvimento
 
-Preencha aqui uma lista detalhada de ferramentas de desenvolvimento usadas
+Visual Studio Code
+Git Bash
+MySQL Workbench
 
 #### Créditos
 
-Preencha aqui uma lista detalhada de recursos aproveitados no projeto, por exemplo:
-- URL de templates usados
-- URL de icon kits usados
-- Créditos para colegas que colaboraram
+Template: Argon Dashboard
+https://www.creative-tim.com/product/argon-dashboard
 
 #### Bastidores
 
-
-Preencha aqui um breve relato dos bastidores e das particularidades do desenvolvimento do projeto, por exemplo: escolha do tema, algum detalhe marcante sobre as tecnologias usadas/aprendidas, bugs encontrados, alguma parte mais trabalhosa de implementar, etc.
-
-
+O maior desafio do projeto foi fazer deploy do mesmo, pois eu não tinha experiência prévia em realizar deploy de ambos frontend em Vue e backend em Flask
 
 ---
 Projeto entregue para a disciplina de [Desenvolvimento de Software para a Web](http://github.com/andreainfufsm/elc1090-2023a) em 2023a
