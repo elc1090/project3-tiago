@@ -38,6 +38,11 @@ Flask, MySQLAlchemy, Node, Python
 Persistência de dados:
 MySQL
 
+Deploy:
+
+NETLIFY - front
+VERCEL - back
+
 #### Ambiente de desenvolvimento
 
 Visual Studio Code
