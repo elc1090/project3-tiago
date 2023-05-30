@@ -1,7 +1,8 @@
 {
   "name": "pdi",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "",
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "dev": "vue-cli-service serve",
