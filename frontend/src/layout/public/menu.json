@@ -1,0 +1,29 @@
+{
+  "links": [
+    {
+      "name": "Início",
+      "icon": "ni ni-tv-2 text-purple",
+      "path": "/"
+    },
+    {
+      "name": "Matrícula",
+      "icon": "fas fa-chalkboard-teacher text-success",
+      "path": "/matricula"
+    },
+    {
+      "name": "Parceria",
+      "icon": "fas fa-briefcase text-info",
+      "path": "/parceria"
+    },
+    {
+      "name": "Voluntariado",
+      "icon": "fas fa-hands-helping text-danger",
+      "path": "/voluntariado"
+    },
+    {
+      "name": "Entrar",
+      "icon": "fas fa-sign-in-alt primary",
+      "path": "/login"
+    }
+  ]
+}

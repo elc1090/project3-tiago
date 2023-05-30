@@ -1,0 +1,9 @@
+{
+  "links": [
+    {
+      "name": "Início",
+      "icon": "ni ni-tv-2 text-purple",
+      "path": "/cliente/"
+    }
+  ]
+}
