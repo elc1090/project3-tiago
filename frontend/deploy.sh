@@ -4,7 +4,7 @@
 set -e
 
 # build
-npm run build
+yarn run build
 
 # navigate into the build output directory
 cd dist
@@ -16,10 +16,10 @@ git init
 git add -A
 git commit -m 'deploy'
 
-# if you are deploying to https://trchagas.github.io
-# git push -f git@github.com:trchagas/trchagas.github.io.git main
+# if you are deploying to https://elc1090.github.io
+# git push -f git@github.com:elc1090/elc1090.github.io.git main
 
-# if you are deploying to https://trchagas.github.io/<REPO>
-# git push -f git@github.com:trchagas/<REPO>.git main:gh-pages
+# if you are deploying to https://elc1090.github.io/project3-tiago
+git push -f git@github.com:elc1090/project3-tiago.git main:gh-pages
 
 cd -
