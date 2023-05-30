@@ -2,6 +2,9 @@ const webpack = require("webpack");
 const isProd = process.env.NODE_ENV === "production";
 
 module.exports = {
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/my-project/'
+    : '/',
   configureWebpack: {
     // Set up all the aliases we use in our app.
     plugins: [
@@ -11,7 +14,7 @@ module.exports = {
     ],
   },
   pwa: {
-    name: "Orquestrando Arte",
+    name: "Subscription App",
     themeColor: "#c95fa7",
     msTileColor: "#ffffff",
     appleMobileWebAppCapable: "yes",
