@@ -1,5 +1,7 @@
 # Gerenciador de assinaturas mensais
 
+* Código de ambos frontend e backend se encontram nas respectivas branches
+
 # Prints:
 
 ## Criação de nova inscrição:
