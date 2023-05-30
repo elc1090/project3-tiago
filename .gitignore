@@ -12,10 +12,3 @@ web-build/
 
 # macOS
 .DS_Store
-
-*pyc
-*pyo
-_.py
-venv/
-.env
-helpers/tmpPath/fonts/
